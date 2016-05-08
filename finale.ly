@@ -178,7 +178,6 @@ lyricDefaults = {
       }
       \new Voice = "alto" {
         \choralDefaults
-        \voiceThree
         \clef "treble"
         \alto
       }
