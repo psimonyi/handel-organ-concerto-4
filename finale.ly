@@ -102,7 +102,7 @@ alto = \relative c' {
   f8[ a g f] c'[ g a e] | f4 r r2 | r8 a a g f[ e d c] | b'[ g c e,] f[ a g f]
   e4 c d e | f8[ e f g] a[ g] f4~ | f ees ees d8[ c] | f[ d e f] g[ a bes a]
 
-  g4 f b4. b8 | a4 r4 r2 | r8 g a e f[ a g f] | e[ g a b] c4 r
+  g4 f bes4. bes8 | a4 r4 r2 | r8 g a e f[ a g f] | e[ g a b] c4 r
   r4 r8 f, bes4 g | c,4. c8 a'[ e] f4 | f e a g | g e fis g
   a4 e a4. g8 | fis4 g g fis | g2 aes | bes4 ees, g4. g8
 
@@ -178,7 +178,6 @@ lyricDefaults = {
       }
       \new Voice = "alto" {
         \choralDefaults
-        \voiceThree
         \clef "treble"
         \alto
       }
