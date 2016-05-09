@@ -1,17 +1,19 @@
 \version "2.19.40"
 \include "finale.ly"
 
+setTempo = { \tempo 4 = 88 }
+
 \book {
   \bookOutputName "soprano"
   \score {
-    \new Voice { \soprano }
+    \new Voice { \setTempo \soprano }
     \midi { }
   }
 }
 \book {
   \bookOutputName "alto"
   \score {
-    \new Voice { \alto }
+    \new Voice { \setTempo \alto }
     \midi { }
   }
 }
@@ -25,7 +27,7 @@
 \book {
   \bookOutputName "bass"
   \score {
-    \new Voice { \bass }
+    \new Voice { \setTempo \bass }
     \midi { }
   }
 }
